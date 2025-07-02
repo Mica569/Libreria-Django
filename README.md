@@ -51,6 +51,7 @@ Asegúrate de tener instaladas las siguientes versiones (o superiores) para un f
     * source venv/bin/activate
 
 **4.** Crea un archivo requirements.txt en la raíz de tu proyecto con las siguientes librerías:
+```
 asgiref==3.8.1
 certifi==2025.6.15
 charset-normalizer==3.4.2
@@ -77,6 +78,7 @@ six==1.17.0
 sqlparse==0.5.3
 tzdata==2025.2
 urllib3==2.5.0
+```
 
 Luego, instala:
 `pip install -r requirements.txt`
