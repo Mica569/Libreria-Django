@@ -1,0 +1,512 @@
+[
+    {
+        "score": "2",
+        "libro": "1",
+        "user": "4"
+    },
+    {
+        "score": "4",
+        "libro": "2",
+        "user": "4"
+    },
+    {
+        "score": "5",
+        "libro": "3",
+        "user": "4"
+    },
+    {
+        "score": "2",
+        "libro": "4",
+        "user": "4"
+    },
+    {
+        "score": "4",
+        "libro": "5",
+        "user": "4"
+    },
+    {
+        "score": "4",
+        "libro": "6",
+        "user": "4"
+    },
+    {
+        "score": "5",
+        "libro": "7",
+        "user": "4"
+    },
+    {
+        "score": "4",
+        "libro": "8",
+        "user": "4"
+    },
+    {
+        "score": "3",
+        "libro": "9",
+        "user": "4"
+    },
+    {
+        "score": "2",
+        "libro": "10",
+        "user": "4"
+    },
+    {
+        "score": "5",
+        "libro": "11",
+        "user": "4"
+    },
+    {
+        "score": "3",
+        "libro": "12",
+        "user": "4"
+    },
+    {
+        "score": "5",
+        "libro": "13",
+        "user": "4"
+    },
+    {
+        "score": "2",
+        "libro": "14",
+        "user": "4"
+    },
+    {
+        "score": "2",
+        "libro": "15",
+        "user": "4"
+    },
+    {
+        "score": "1",
+        "libro": "16",
+        "user": "4"
+    },
+    {
+        "score": "3",
+        "libro": "17",
+        "user": "4"
+    },
+    {
+        "score": "1",
+        "libro": "18",
+        "user": "4"
+    },
+    {
+        "score": "1",
+        "libro": "19",
+        "user": "4"
+    },
+    {
+        "score": "1",
+        "libro": "20",
+        "user": "4"
+    },
+    {
+        "score": "1",
+        "libro": "21",
+        "user": "4"
+    },
+    {
+        "score": "1",
+        "libro": "22",
+        "user": "4"
+    },
+    {
+        "score": "5",
+        "libro": "23",
+        "user": "4"
+    },
+    {
+        "score": "5",
+        "libro": "24",
+        "user": "4"
+    },
+    {
+        "score": "3",
+        "libro": "25",
+        "user": "4"
+    },
+    {
+        "score": "5",
+        "libro": "26",
+        "user": "4"
+    },
+    {
+        "score": "5",
+        "libro": "27",
+        "user": "4"
+    },
+    {
+        "score": "1",
+        "libro": "28",
+        "user": "4"
+    },
+    {
+        "score": "4",
+        "libro": "29",
+        "user": "4"
+    },
+    {
+        "score": "1",
+        "libro": "30",
+        "user": "4"
+    },
+    {
+        "score": "3",
+        "libro": "31",
+        "user": "4"
+    },
+    {
+        "score": "3",
+        "libro": "32",
+        "user": "4"
+    },
+    {
+        "score": "4",
+        "libro": "33",
+        "user": "4"
+    },
+    {
+        "score": "3",
+        "libro": "34",
+        "user": "4"
+    },
+    {
+        "score": "2",
+        "libro": "35",
+        "user": "4"
+    },
+    {
+        "score": "4",
+        "libro": "36",
+        "user": "4"
+    },
+    {
+        "score": "4",
+        "libro": "37",
+        "user": "4"
+    },
+    {
+        "score": "1",
+        "libro": "38",
+        "user": "4"
+    },
+    {
+        "score": "1",
+        "libro": "39",
+        "user": "4"
+    },
+    {
+        "score": "1",
+        "libro": "40",
+        "user": "4"
+    },
+    {
+        "score": "2",
+        "libro": "41",
+        "user": "4"
+    },
+    {
+        "score": "5",
+        "libro": "42",
+        "user": "4"
+    },
+    {
+        "score": "3",
+        "libro": "43",
+        "user": "4"
+    },
+    {
+        "score": "3",
+        "libro": "44",
+        "user": "4"
+    },
+    {
+        "score": "1",
+        "libro": "45",
+        "user": "4"
+    },
+    {
+        "score": "5",
+        "libro": "46",
+        "user": "4"
+    },
+    {
+        "score": "2",
+        "libro": "47",
+        "user": "4"
+    },
+    {
+        "score": "2",
+        "libro": "48",
+        "user": "4"
+    },
+    {
+        "score": "2",
+        "libro": "49",
+        "user": "4"
+    },
+    {
+        "score": "5",
+        "libro": "50",
+        "user": "4"
+    },
+    {
+        "score": "2",
+        "libro": "51",
+        "user": "4"
+    },
+    {
+        "score": "1",
+        "libro": "52",
+        "user": "4"
+    },
+    {
+        "score": "1",
+        "libro": "53",
+        "user": "4"
+    },
+    {
+        "score": "4",
+        "libro": "54",
+        "user": "4"
+    },
+    {
+        "score": "3",
+        "libro": "55",
+        "user": "4"
+    },
+    {
+        "score": "2",
+        "libro": "56",
+        "user": "4"
+    },
+    {
+        "score": "5",
+        "libro": "57",
+        "user": "4"
+    },
+    {
+        "score": "1",
+        "libro": "58",
+        "user": "4"
+    },
+    {
+        "score": "1",
+        "libro": "59",
+        "user": "4"
+    },
+    {
+        "score": "4",
+        "libro": "60",
+        "user": "4"
+    },
+    {
+        "score": "1",
+        "libro": "61",
+        "user": "4"
+    },
+    {
+        "score": "2",
+        "libro": "62",
+        "user": "4"
+    },
+    {
+        "score": "5",
+        "libro": "63",
+        "user": "4"
+    },
+    {
+        "score": "2",
+        "libro": "64",
+        "user": "4"
+    },
+    {
+        "score": "2",
+        "libro": "65",
+        "user": "4"
+    },
+    {
+        "score": "5",
+        "libro": "66",
+        "user": "4"
+    },
+    {
+        "score": "5",
+        "libro": "67",
+        "user": "4"
+    },
+    {
+        "score": "1",
+        "libro": "68",
+        "user": "4"
+    },
+    {
+        "score": "3",
+        "libro": "69",
+        "user": "4"
+    },
+    {
+        "score": "1",
+        "libro": "70",
+        "user": "4"
+    },
+    {
+        "score": "5",
+        "libro": "71",
+        "user": "4"
+    },
+    {
+        "score": "3",
+        "libro": "72",
+        "user": "4"
+    },
+    {
+        "score": "5",
+        "libro": "73",
+        "user": "4"
+    },
+    {
+        "score": "1",
+        "libro": "74",
+        "user": "4"
+    },
+    {
+        "score": "5",
+        "libro": "75",
+        "user": "4"
+    },
+    {
+        "score": "4",
+        "libro": "76",
+        "user": "4"
+    },
+    {
+        "score": "5",
+        "libro": "77",
+        "user": "4"
+    },
+    {
+        "score": "5",
+        "libro": "78",
+        "user": "4"
+    },
+    {
+        "score": "1",
+        "libro": "79",
+        "user": "4"
+    },
+    {
+        "score": "5",
+        "libro": "80",
+        "user": "4"
+    },
+    {
+        "score": "5",
+        "libro": "81",
+        "user": "4"
+    },
+    {
+        "score": "5",
+        "libro": "82",
+        "user": "4"
+    },
+    {
+        "score": "1",
+        "libro": "83",
+        "user": "4"
+    },
+    {
+        "score": "5",
+        "libro": "84",
+        "user": "4"
+    },
+    {
+        "score": "1",
+        "libro": "85",
+        "user": "4"
+    },
+    {
+        "score": "2",
+        "libro": "86",
+        "user": "4"
+    },
+    {
+        "score": "2",
+        "libro": "87",
+        "user": "4"
+    },
+    {
+        "score": "1",
+        "libro": "88",
+        "user": "4"
+    },
+    {
+        "score": "4",
+        "libro": "89",
+        "user": "4"
+    },
+    {
+        "score": "4",
+        "libro": "90",
+        "user": "4"
+    },
+    {
+        "score": "4",
+        "libro": "91",
+        "user": "4"
+    },
+    {
+        "score": "1",
+        "libro": "92",
+        "user": "4"
+    },
+    {
+        "score": "2",
+        "libro": "93",
+        "user": "4"
+    },
+    {
+        "score": "4",
+        "libro": "94",
+        "user": "4"
+    },
+    {
+        "score": "2",
+        "libro": "95",
+        "user": "4"
+    },
+    {
+        "score": "1",
+        "libro": "96",
+        "user": "4"
+    },
+    {
+        "score": "1",
+        "libro": "97",
+        "user": "4"
+    },
+    {
+        "score": "5",
+        "libro": "98",
+        "user": "4"
+    },
+    {
+        "score": "5",
+        "libro": "99",
+        "user": "4"
+    },
+    {
+        "score": "4",
+        "libro": "100",
+        "user": "4"
+    },
+    {
+        "score": "1",
+        "libro": "101",
+        "user": "4"
+    },
+    {
+        "score": "5",
+        "libro": "102",
+        "user": "4"
+    }
+]

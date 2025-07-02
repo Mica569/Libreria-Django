@@ -1,0 +1,778 @@
+[
+    {
+        "id": 1,
+        "nombre": "El principito",
+        "autor": "Antoine de Saint-Exupéry",
+        "fecha_lanzamiento": "1943-04-06",
+        "url": "https://example.com/el-principito",
+        "generos": []
+    },
+    {
+        "id": 2,
+        "nombre": "Cien Años de Soledad",
+        "autor": "Gabriel García Márquez",
+        "fecha_lanzamiento": "1967-05-01",
+        "url": "https://www.secst.cl/upfiles/documentos/19072016_1207am_578dc39115fe9.pdf",
+        "generos": []
+    },
+    {
+        "id": 3,
+        "nombre": "El amor en los tiempos del cólera",
+        "autor": "Gabriel García Márquez",
+        "fecha_lanzamiento": "1985-01-01",
+        "url": "https://www.cervantesvirtual.com/descargaPdf/el-amor-en-los-tiempos-del-colera/",
+        "generos": []
+    },
+    {
+        "id": 4,
+        "nombre": "Crónica de una muerte anunciada",
+        "autor": "Gabriel García Márquez",
+        "fecha_lanzamiento": "1981-01-01",
+        "url": "https://drive.google.com/file/d/1_Kic1YBP_EaMkFy3mQUM7LVY73nKva6J/view?usp=sharing",
+        "generos": []
+    },
+    {
+        "id": 10,
+        "nombre": "Harry Potter y la piedra filosofal",
+        "autor": "Joanne Rowling",
+        "fecha_lanzamiento": "1997-06-26",
+        "url": "https://drive.google.com/file/d/1_Kic1YBP_EaMkFy3mQUM7LVY73nKva6J/view?usp=sharing",
+        "generos": []
+    },
+    {
+        "id": 11,
+        "nombre": "Harry Potter y la cámara secreta",
+        "autor": "Joanne Rowling",
+        "fecha_lanzamiento": "1998-07-02",
+        "url": "https://drive.google.com/file/d/1Kb-zbufU43GAgTCoNqh4l_VeJp3gPayF/view?usp=sharing",
+        "generos": []
+    },
+    {
+        "id": 12,
+        "nombre": "Harry Potter y el prisionero de Azkaban",
+        "autor": "Joanne Rowling",
+        "fecha_lanzamiento": "1999-07-08",
+        "url": "https://drive.google.com/file/d/1Wih3iG-Wa-tvOPzjaQbKJ8VZFOrlPBV2/view?usp=sharing",
+        "generos": []
+    },
+    {
+        "id": 13,
+        "nombre": "Harry Potter y el Cáliz de Fuego",
+        "autor": "Joanne Rowling",
+        "fecha_lanzamiento": "2000-07-08",
+        "url": "https://drive.google.com/file/d/1wxAPdQS6RWZTdONSFcVGbnhE9I3IJCKN/view?usp=sharing",
+        "generos": []
+    },
+    {
+        "id": 14,
+        "nombre": "Harry Potter y la orden del Fénix",
+        "autor": "Joanne Rowling",
+        "fecha_lanzamiento": "2003-06-21",
+        "url": "https://drive.google.com/file/d/17oZb_kSBxTMK9-XObsShlRcxod6MxqUJ/view?usp=sharing",
+        "generos": []
+    },
+    {
+        "id": 15,
+        "nombre": "Harry Potter y el misterio del Príncipe",
+        "autor": "Joanne Rowling",
+        "fecha_lanzamiento": "2005-07-16",
+        "url": "https://drive.google.com/file/d/1_Lb1RS-4Gsxx2Kvak-yk5HEds6wbUb4l/view?usp=sharing",
+        "generos": []
+    },
+    {
+        "id": 16,
+        "nombre": "Harry Potter y las Reliquias de la Muerte",
+        "autor": "Joanne Rowling",
+        "fecha_lanzamiento": "2007-07-21",
+        "url": "https://drive.google.com/file/d/14QTdkKqZgHg0_NrIhiFM3o9vxuKh6jy0/view?usp=sharing",
+        "generos": []
+    },
+    {
+        "id": 17,
+        "nombre": "Animales fantásticos y dónde encontrarlos",
+        "autor": "Joanne Rowling",
+        "fecha_lanzamiento": "2001-12-01",
+        "url": "https://drive.google.com/file/d/1Cu1fpU7o8y5iiuuamL8aaPzWwVlrR6_-/view?usp=sharing",
+        "generos": []
+    },
+    {
+        "id": 18,
+        "nombre": "Los cuentos de Beedle el Bardo",
+        "autor": "Joanne Rowling",
+        "fecha_lanzamiento": "2008-12-04",
+        "url": "https://drive.google.com/file/d/1Z21B5taKMR5e0hGlW58cPZzu6EAToOE4/view?usp=sharing",
+        "generos": []
+    },
+    {
+        "id": 19,
+        "nombre": "Yo el Supremo",
+        "autor": "Augusto Roa Bastos",
+        "fecha_lanzamiento": "1974-01-01",
+        "url": "https://drive.google.com/file/d/1vUhZuRAkbRK4xnc4gAXA2wuz_jee4I9_/view?usp=sharing",
+        "generos": []
+    },
+    {
+        "id": 20,
+        "nombre": "Hijo de Hombre",
+        "autor": "Augusto Roa Bastos",
+        "fecha_lanzamiento": "1960-01-01",
+        "url": "https://drive.google.com/file/d/1Hrv73e-Q8BM3CPvKZob_Qp3jr58Oqx1N/view?usp=sharing",
+        "generos": []
+    },
+    {
+        "id": 21,
+        "nombre": "El trueno entre las Hojas",
+        "autor": "Augusto Roa Bastos",
+        "fecha_lanzamiento": "1953-01-01",
+        "url": "https://drive.google.com/file/d/1VI8FLkuTR0y6lPkMIhh4npPt_5f8CBak/view?usp=sharing",
+        "generos": []
+    },
+    {
+        "id": 22,
+        "nombre": "Contravida",
+        "autor": "Augusto Roa Bastos",
+        "fecha_lanzamiento": "1995-01-01",
+        "url": "https://drive.google.com/file/d/1fDUtrI59idEK78Jtclw11N9LYe7vodHZ/view?usp=sharing",
+        "generos": []
+    },
+    {
+        "id": 23,
+        "nombre": "Vigilia del Almirante",
+        "autor": "Augusto Roa Bastos",
+        "fecha_lanzamiento": "1992-01-01",
+        "url": "https://www.portalguarani.com/pdfvisor/web/viewer.html?file=/WOPRMSKLORPE/PSARTGVGVBB989/AUGUSTO%20ROA%20BASTOS/VIGILIA%20DEL%20ALMIRANTE%20-%20AUGUSTO%20ROA%20BASTOS%20-%20PORTALGUARANI.pdf",
+        "generos": []
+    },
+    {
+        "id": 24,
+        "nombre": "Pirulí",
+        "autor": "Augusto Roa Bastos",
+        "fecha_lanzamiento": "1953-01-01",
+        "url": "https://drive.google.com/file/d/13gcj066DU2G3mADN_4XxsXa8B6-6X1iG/view?usp=sharing",
+        "generos": []
+    },
+    {
+        "id": 25,
+        "nombre": "El Baldío",
+        "autor": "Augusto Roa Bastos",
+        "fecha_lanzamiento": "1966-01-01",
+        "url": "https://drive.google.com/file/d/1z9BGZj24cvgDRmEaJBMdjdLPr9S4ex2R/view?usp=sharing",
+        "generos": []
+    },
+    {
+        "id": 26,
+        "nombre": "La Tregua",
+        "autor": "Mario Benedetti",
+        "fecha_lanzamiento": "1960-01-01",
+        "url": "https://drive.google.com/file/d/1OuFyIgfm_-lhyX1bEpqsaEFApE2yWHaY/view?usp=sharing",
+        "generos": []
+    },
+    {
+        "id": 27,
+        "nombre": "El amor, las mujeres y la vida",
+        "autor": "Mario Benedetti",
+        "fecha_lanzamiento": "1995-01-01",
+        "url": "https://drive.google.com/file/d/1kIciPWrZCiCXkmsqwR0voVJ9SVHlc8Ik/view?usp=sharing",
+        "generos": []
+    },
+    {
+        "id": 28,
+        "nombre": "Primavera con una esquina rota",
+        "autor": "Mario Benedetti",
+        "fecha_lanzamiento": "1982-01-01",
+        "url": "https://drive.google.com/drive/folders/12qEHlQJ4CqSipicgYjaDKicAvOQhiKhq?usp=sharing",
+        "generos": []
+    },
+    {
+        "id": 29,
+        "nombre": "Gracias por el fuego",
+        "autor": "Mario Benedetti",
+        "fecha_lanzamiento": "1966-01-01",
+        "url": "https://drive.google.com/file/d/1bqWU2tKsGhbIfMhITqX6wMs1tQYfZtkl/view?usp=sharing",
+        "generos": []
+    },
+    {
+        "id": 30,
+        "nombre": "La borra del café",
+        "autor": "Mario Benedetti",
+        "fecha_lanzamiento": "1992-01-01",
+        "url": "https://drive.google.com/file/d/1rg0k4VGWPwiDOnCy23aD96DM2-ZqsVP3/view?usp=sharing",
+        "generos": []
+    },
+    {
+        "id": 31,
+        "nombre": "La biblioteca de Babel",
+        "autor": "Jorge Luis Borges",
+        "fecha_lanzamiento": "1941-01-01",
+        "url": "https://drive.google.com/file/d/1sqAicnc7EKWFIfw6WfiGajq7UdBv0FvI/view?usp=sharing",
+        "generos": []
+    },
+    {
+        "id": 32,
+        "nombre": "El Aleph",
+        "autor": "Jorge Luis Borges",
+        "fecha_lanzamiento": "1945-06-01",
+        "url": "https://drive.google.com/file/d/1KHXRn9kZCamy-CqeUW8xAzU0ISA7LONv/view?usp=sharing",
+        "generos": []
+    },
+    {
+        "id": 33,
+        "nombre": "El sur",
+        "autor": "Jorge Luis Borges",
+        "fecha_lanzamiento": "1953-06-01",
+        "url": "https://drive.google.com/file/d/1KHXRn9kZCamy-CqeUW8xAzU0ISA7LONv/view?usp=sharing",
+        "generos": []
+    },
+    {
+        "id": 34,
+        "nombre": "Emma Zunz",
+        "autor": "Jorge Luis Borges",
+        "fecha_lanzamiento": "1948-09-01",
+        "url": "https://drive.google.com/file/d/1KHXRn9kZCamy-CqeUW8xAzU0ISA7LONv/view?usp=sharing",
+        "generos": []
+    },
+    {
+        "id": 35,
+        "nombre": "Poema de los dones",
+        "autor": "Jorge Luis Borges",
+        "fecha_lanzamiento": "1959-01-01",
+        "url": "https://drive.google.com/file/d/1KHXRn9kZCamy-CqeUW8xAzU0ISA7LONv/view?usp=sharing",
+        "generos": []
+    },
+    {
+        "id": 36,
+        "nombre": "Tres versiones de Judas",
+        "autor": "Jorge Luis Borges",
+        "fecha_lanzamiento": "1944-08-01",
+        "url": "https://drive.google.com/file/d/1KHXRn9kZCamy-CqeUW8xAzU0ISA7LONv/view?usp=sharing",
+        "generos": []
+    },
+    {
+        "id": 37,
+        "nombre": "Pierre Menard, autor del Quijote",
+        "autor": "Jorge Luis Borges",
+        "fecha_lanzamiento": "1939-05-01",
+        "url": "https://drive.google.com/file/d/1KHXRn9kZCamy-CqeUW8xAzU0ISA7LONv/view?usp=sharing",
+        "generos": []
+    },
+    {
+        "id": 38,
+        "nombre": "El jardín de senderos que se bifurcan",
+        "autor": "Jorge Luis Borges",
+        "fecha_lanzamiento": "1943-05-30",
+        "url": "https://drive.google.com/file/d/1KHXRn9kZCamy-CqeUW8xAzU0ISA7LONv/view?usp=sharing",
+        "generos": []
+    },
+    {
+        "id": 39,
+        "nombre": "Breve historia del tiempo",
+        "autor": "Stephen Hawking",
+        "fecha_lanzamiento": "1988-01-01",
+        "url": "https://drive.google.com/file/d/1aJsrsbQkic_WiHYyTGqA3ZMTZyQKUs9w/view?usp=sharing",
+        "generos": []
+    },
+    {
+        "id": 40,
+        "nombre": "El gran diseño",
+        "autor": "Stephen Hawking",
+        "fecha_lanzamiento": "2010-09-15",
+        "url": "https://drive.google.com/file/d/1WAOJh3gWg64I-1qEw4KuoQFxvWKG3qyM/view?usp=sharing",
+        "generos": []
+    },
+    {
+        "id": 41,
+        "nombre": "El tesoro cósmico",
+        "autor": "Stephen Hawking",
+        "fecha_lanzamiento": "2009-05-19",
+        "url": "https://drive.google.com/file/d/1b_VKK6dCFAzO45Cb_eCDkHRQ6eg661a6/view?usp=sharing",
+        "generos": []
+    },
+    {
+        "id": 42,
+        "nombre": "Breve historia de mi vida",
+        "autor": "Stephen Hawking",
+        "fecha_lanzamiento": "2013-09-10",
+        "url": "https://drive.google.com/file/d/13fp_5dleI15FVgJ6TLGa1OUWxfhJ40MJ/view?usp=sharing",
+        "generos": []
+    },
+    {
+        "id": 43,
+        "nombre": "Agujeros negros y pequeños universos",
+        "autor": "Stephen Hawking",
+        "fecha_lanzamiento": "1993-01-01",
+        "url": "https://drive.google.com/file/d/1pAAUhsTk6EOfHHP6dcY5RNHeDAZRAVLt/view?usp=sharing",
+        "generos": []
+    },
+    {
+        "id": 44,
+        "nombre": "Dios Creó los Números",
+        "autor": "Stephen Hawking",
+        "fecha_lanzamiento": "2005-10-04",
+        "url": "https://drive.google.com/file/d/1W3HSkU8aq1NRWfS3Fh6MIYiJl2LKRvt-/view?usp=sharing",
+        "generos": []
+    },
+    {
+        "id": 45,
+        "nombre": "La teoría del todo",
+        "autor": "Stephen Hawking",
+        "fecha_lanzamiento": "1943-05-30",
+        "url": "https://drive.google.com/file/d/1qMlAP2pkR5w2wXhk-s9Fdd1KQnU14-27/view?usp=sharing",
+        "generos": []
+    },
+    {
+        "id": 46,
+        "nombre": "Diario de Ana Frank",
+        "autor": "Ana Frank",
+        "fecha_lanzamiento": "1947-06-25",
+        "url": "https://drive.google.com/file/d/1wX8UuIteVTndTnk3ltNgx6Jpv5zUVWE_/view?usp=sharing",
+        "generos": []
+    },
+    {
+        "id": 47,
+        "nombre": "El resplandor",
+        "autor": "Stephen King",
+        "fecha_lanzamiento": "1977-01-28",
+        "url": "https://drive.google.com/file/d/1qR_KVIa8QspfCD21CowrW-ixTYupMgQo/view?usp=sharing",
+        "generos": []
+    },
+    {
+        "id": 48,
+        "nombre": "Carrie",
+        "autor": "Stephen King",
+        "fecha_lanzamiento": "1974-04-06",
+        "url": "https://drive.google.com/file/d/1RYf4H61V5F-KxBlVoeIFhCZBhFaxdopv/view?usp=sharing",
+        "generos": []
+    },
+    {
+        "id": 49,
+        "nombre": "La Larga Mancha",
+        "autor": "Stephen King",
+        "fecha_lanzamiento": "1979-07-01",
+        "url": "https://drive.google.com/file/d/13KZMJfq2-y1t3BGTAKIOKvHWXxk08vFt/view?usp=sharing",
+        "generos": []
+    },
+    {
+        "id": 50,
+        "nombre": "It (Eso)",
+        "autor": "Stephen Hawking",
+        "fecha_lanzamiento": "1986-09-15",
+        "url": "https://drive.google.com/file/d/172IGXye4GWN_DzmaTRfUyQ2A3M5dzDrR/view?usp=sharing",
+        "generos": []
+    },
+    {
+        "id": 51,
+        "nombre": "1984",
+        "autor": "George Orwell",
+        "fecha_lanzamiento": "1949-06-08",
+        "url": "https://www.suneo.mx/literatura/subidas/George%20Orwell%201984.pdf",
+        "generos": []
+    },
+    {
+        "id": 52,
+        "nombre": "Rebelión en la Granja",
+        "autor": "George Orwell",
+        "fecha_lanzamiento": "1945-08-17",
+        "url": "https://www.suneo.mx/literatura/subidas/George%20Orwell%20Rebeli%C3%B3n%20en%20la%20Granja.pdf",
+        "generos": []
+    },
+    {
+        "id": 53,
+        "nombre": "El Hobbit",
+        "autor": "J.R.R. Tolkien",
+        "fecha_lanzamiento": "1937-09-21",
+        "url": "https://web.seducoahuila.gob.mx/biblioweb/upload/J.R.R.%20Tolkien%20-%20El%20Hobbit.pdf",
+        "generos": []
+    },
+    {
+        "id": 54,
+        "nombre": "El señor de los anillos",
+        "autor": "J.R.R. Tolkien",
+        "fecha_lanzamiento": "1954-07-29",
+        "url": "https://web.seducoahuila.gob.mx/biblioweb/upload/J.R.R.%20Tolkien%20La%20Comunidad%20del%20anillo%20I.pdf",
+        "generos": []
+    },
+    {
+        "id": 55,
+        "nombre": "Fervor de Buenos Aires",
+        "autor": "Jorge Luis Borges",
+        "fecha_lanzamiento": "1923-01-01",
+        "url": "https://www.borges.pitt.edu/bsol/documents/1911.pdf",
+        "generos": []
+    },
+    {
+        "id": 56,
+        "nombre": "El eco del pasado",
+        "autor": "Stephen King",
+        "fecha_lanzamiento": "1972-10-27",
+        "url": "https://libros.example.com/101",
+        "generos": []
+    },
+    {
+        "id": 57,
+        "nombre": "El otoño del patriarca",
+        "autor": "Gabriel García Márquez",
+        "fecha_lanzamiento": "1975-01-01",
+        "url": "https://example.com/libro-113",
+        "generos": []
+    },
+    {
+        "id": 58,
+        "nombre": "El coronel no tiene quien le escriba",
+        "autor": "Gabriel García Márquez",
+        "fecha_lanzamiento": "1961-01-01",
+        "url": "https://example.com/libro-114",
+        "generos": []
+    },
+    {
+        "id": 59,
+        "nombre": "Ficciones",
+        "autor": "Jorge Luis Borges",
+        "fecha_lanzamiento": "1944-01-01",
+        "url": "https://example.com/libro-122",
+        "generos": []
+    },
+    {
+        "id": 60,
+        "nombre": "Tiempo de cenizas",
+        "autor": "Mario Benedetti",
+        "fecha_lanzamiento": "1939-02-08",
+        "url": "https://libros.example.com/104",
+        "generos": []
+    },
+    {
+        "id": 61,
+        "nombre": "El reino de este mundo",
+        "autor": "Alejo Carpentier",
+        "fecha_lanzamiento": "1949-01-01",
+        "url": "https://example.com/libro-126",
+        "generos": []
+    },
+    {
+        "id": 62,
+        "nombre": "Los pasos perdidos",
+        "autor": "Alejo Carpentier",
+        "fecha_lanzamiento": "1953-01-01",
+        "url": "https://example.com/libro-130",
+        "generos": []
+    },
+    {
+        "id": 63,
+        "nombre": "Aura",
+        "autor": "Carlos Fuentes",
+        "fecha_lanzamiento": "1962-01-01",
+        "url": "https://example.com/libro-105",
+        "generos": []
+    },
+    {
+        "id": 64,
+        "nombre": "La muerte de Artemio Cruz",
+        "autor": "Carlos Fuentes",
+        "fecha_lanzamiento": "1962-01-01",
+        "url": "https://example.com/libro-128",
+        "generos": []
+    },
+    {
+        "id": 65,
+        "nombre": "El laberinto de los espíritus",
+        "autor": "Carlos Ruiz Zafón",
+        "fecha_lanzamiento": "2016-01-01",
+        "url": "https://example.com/libro-108",
+        "generos": []
+    },
+    {
+        "id": 66,
+        "nombre": "La sombra del viento",
+        "autor": "Carlos Ruiz Zafón",
+        "fecha_lanzamiento": "2001-01-01",
+        "url": "https://example.com/libro-109",
+        "generos": []
+    },
+    {
+        "id": 67,
+        "nombre": "Crimen y castigo",
+        "autor": "Fyodor Dostoevsky",
+        "fecha_lanzamiento": "1866-01-01",
+        "url": "https://example.com/libro-132",
+        "generos": []
+    },
+    {
+        "id": 68,
+        "nombre": "Jane Eyre",
+        "autor": "Emily Brontë",
+        "fecha_lanzamiento": "1847-01-01",
+        "url": "https://example.com/libro-134",
+        "generos": []
+    },
+    {
+        "id": 69,
+        "nombre": "El túnel",
+        "autor": "Ernesto Sábato",
+        "fecha_lanzamiento": "1948-01-01",
+        "url": "https://example.com/libro-104",
+        "generos": []
+    },
+    {
+        "id": 70,
+        "nombre": "Fahrenheit 451",
+        "autor": "Ray Bradbury",
+        "fecha_lanzamiento": "1953-01-01",
+        "url": "https://example.com/libro-137",
+        "generos": []
+    },
+    {
+        "id": 71,
+        "nombre": "Nocturno de Chile",
+        "autor": "Roberto Bolaño",
+        "fecha_lanzamiento": "2000-01-01",
+        "url": "https://example.com/libro-124",
+        "generos": []
+    },
+    {
+        "id": 72,
+        "nombre": "Los detectives salvajes",
+        "autor": "Roberto Bolaño",
+        "fecha_lanzamiento": "1998-01-01",
+        "url": "https://example.com/libro-107",
+        "generos": []
+    },
+    {
+        "id": 73,
+        "nombre": "2666",
+        "autor": "Roberto Bolaño",
+        "fecha_lanzamiento": "2004-01-01",
+        "url": "https://example.com/libro-125",
+        "generos": []
+    },
+    {
+        "id": 74,
+        "nombre": "Matar a un ruiseñor",
+        "autor": "Harper Lee",
+        "fecha_lanzamiento": "1960-01-01",
+        "url": "https://example.com/libro-135",
+        "generos": []
+    },
+    {
+        "id": 75,
+        "nombre": "Tokio Blues",
+        "autor": "Haruki Murakami",
+        "fecha_lanzamiento": "2002-01-01",
+        "url": "https://example.com/libro-110",
+        "generos": []
+    },
+    {
+        "id": 76,
+        "nombre": "Kafka en la orilla",
+        "autor": "Haruki Murakami",
+        "fecha_lanzamiento": "2002-01-01",
+        "url": "https://example.com/libro-111",
+        "generos": []
+    },
+    {
+        "id": 77,
+        "nombre": "La casa de los espíritus",
+        "autor": "Isabel Allende",
+        "fecha_lanzamiento": "1982-01-01",
+        "url": "https://example.com/libro-101",
+        "generos": []
+    },
+    {
+        "id": 78,
+        "nombre": "Pedro Páramo",
+        "autor": "Juan Rulfo",
+        "fecha_lanzamiento": "1955-01-01",
+        "url": "https://example.com/libro-127",
+        "generos": []
+    },
+    {
+        "id": 79,
+        "nombre": "Brida",
+        "autor": "Paulo Coelho",
+        "fecha_lanzamiento": "1990-01-01",
+        "url": "https://example.com/libro-200",
+        "generos": []
+    },
+    {
+        "id": 80,
+        "nombre": "Veronika decide morir",
+        "autor": "Paulo Coelho",
+        "fecha_lanzamiento": "1998-01-01",
+        "url": "https://example.com/libro-201",
+        "generos": []
+    },
+    {
+        "id": 81,
+        "nombre": "El peregrino de Compostela",
+        "autor": "Paulo Coelho",
+        "fecha_lanzamiento": "1987-01-01",
+        "url": "https://example.com/libro-202",
+        "generos": []
+    },
+    {
+        "id": 82,
+        "nombre": "El zorro",
+        "autor": "Paulo Coelho",
+        "fecha_lanzamiento": "2000-01-01",
+        "url": "https://example.com/libro-203",
+        "generos": []
+    },
+    {
+        "id": 83,
+        "nombre": "Once minutos",
+        "autor": "Paulo Coelho",
+        "fecha_lanzamiento": "2003-01-01",
+        "url": "https://example.com/libro-204",
+        "generos": []
+    },
+    {
+        "id": 84,
+        "nombre": "La Quinta Montaña",
+        "autor": "Paulo Coelho",
+        "fecha_lanzamiento": "1996-01-01",
+        "url": "https://example.com/libro-205",
+        "generos": []
+    },
+    {
+        "id": 85,
+        "nombre": "La bruja de Portobello",
+        "autor": "Paulo Coelho",
+        "fecha_lanzamiento": "2006-01-01",
+        "url": "https://example.com/libro-206",
+        "generos": []
+    },
+    {
+        "id": 86,
+        "nombre": "El Demonio y la Señorita Prym",
+        "autor": "Paulo Coelho",
+        "fecha_lanzamiento": "2000-01-01",
+        "url": "https://example.com/libro-207",
+        "generos": []
+    },
+    {
+        "id": 87,
+        "nombre": "El manuscrito encontrado en Accra",
+        "autor": "Paulo Coelho",
+        "fecha_lanzamiento": "2012-01-01",
+        "url": "https://example.com/libro-208",
+        "generos": []
+    },
+    {
+        "id": 88,
+        "nombre": "El vencedor está solo",
+        "autor": "Paulo Coelho",
+        "fecha_lanzamiento": "2008-01-01",
+        "url": "https://example.com/libro-209",
+        "generos": []
+    },
+    {
+        "id": 89,
+        "nombre": "Eva Luna",
+        "autor": "Isabel Allende",
+        "fecha_lanzamiento": "1987-01-01",
+        "url": "https://example.com/libro-210",
+        "generos": []
+    },
+    {
+        "id": 90,
+        "nombre": "Paula",
+        "autor": "Isabel Allende",
+        "fecha_lanzamiento": "1994-01-01",
+        "url": "https://example.com/libro-211",
+        "generos": []
+    },
+    {
+        "id": 91,
+        "nombre": "Retrato en sepia",
+        "autor": "Isabel Allende",
+        "fecha_lanzamiento": "2000-01-01",
+        "url": "https://example.com/libro-212",
+        "generos": []
+    },
+    {
+        "id": 92,
+        "nombre": "La isla bajo el mar",
+        "autor": "Isabel Allende",
+        "fecha_lanzamiento": "2009-01-01",
+        "url": "https://example.com/libro-213",
+        "generos": []
+    },
+    {
+        "id": 93,
+        "nombre": "Inés del alma mía",
+        "autor": "Isabel Allende",
+        "fecha_lanzamiento": "2006-01-01",
+        "url": "https://example.com/libro-214",
+        "generos": []
+    },
+    {
+        "id": 94,
+        "nombre": "El cuaderno de Maya",
+        "autor": "Isabel Allende",
+        "fecha_lanzamiento": "2011-01-01",
+        "url": "https://example.com/libro-215",
+        "generos": []
+    },
+    {
+        "id": 95,
+        "nombre": "La suma de los días",
+        "autor": "Isabel Allende",
+        "fecha_lanzamiento": "2007-01-01",
+        "url": "https://example.com/libro-216",
+        "generos": []
+    },
+    {
+        "id": 96,
+        "nombre": "La madre de Frankenstein",
+        "autor": "Isabel Allende",
+        "fecha_lanzamiento": "2020-01-01",
+        "url": "https://example.com/libro-217",
+        "generos": []
+    },
+    {
+        "id": 97,
+        "nombre": "El país de las mujeres",
+        "autor": "Gioconda Belli",
+        "fecha_lanzamiento": "1988-01-01",
+        "url": "https://example.com/libro-218",
+        "generos": []
+    },
+    {
+        "id": 98,
+        "nombre": "La mujer habitada",
+        "autor": "Gioconda Belli",
+        "fecha_lanzamiento": "1988-01-01",
+        "url": "https://example.com/libro-219",
+        "generos": []
+    },
+    {
+        "id": 99,
+        "nombre": "La casa de Bernarda Alba",
+        "autor": "Federico García Lorca",
+        "fecha_lanzamiento": "1936-01-01",
+        "url": "https://example.com/libro-220",
+        "generos": []
+    },
+    {
+        "id": 100,
+        "nombre": "Bodas de sangre",
+        "autor": "Federico García Lorca",
+        "fecha_lanzamiento": "1933-01-01",
+        "url": "https://example.com/libro-221",
+        "generos": []
+    },
+    {
+        "id": 101,
+        "nombre": "La colmena",
+        "autor": "Camilo José Cela",
+        "fecha_lanzamiento": "1951-01-01",
+        "url": "https://example.com/libro-222",
+        "generos": []
+    },
+    {
+        "id": 102,
+        "nombre": "Don Quijote de la Mancha",
+        "autor": "Miguel de Cervantes",
+        "fecha_lanzamiento": "1605-01-01",
+        "url": "https://example.com/libro-223",
+        "generos": []
+    }
+]

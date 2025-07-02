@@ -1,0 +1,29 @@
+{% extends "base.html" %}
+{% block title %}Inicio{% endblock %}
+{% block content %}
+<h2>Bienvenido a la Biblioteca</h2>
+
+<!-- Buscador -->
+<form method="get" action="{% url 'home' %}" class="mb-3">
+  <div class="input-group">
+    <input type="text" name="buscar" class="form-control" placeholder="Buscar por nombre o autor..." value="{{ request.GET.buscar }}">
+    <button type="submit" class="btn btn-outline-secondary">Buscar</button>
+  </div>
+</form>
+
+<!-- Resultados de búsqueda -->
+{% if libros %}
+  <h5>Resultados:</h5>
+  <ul class="list-group">
+    {% for libro in libros %}
+      <li class="list-group-item">{{ libro.nombre }} - {{ libro.autor.nombre }}</li>
+    {% endfor %}
+  </ul>
+{% endif %}
+
+<!-- Gráficos (más adelante se integrará con matplotlib/pandas) -->
+<div class="mt-5">
+  <h4>Gráficos de calificaciones 📊</h4>
+  <img src="{% url 'grafico_calificaciones' %}" class="img-fluid" alt="Gráfico de calificaciones">
+</div>
+{% endblock %}
