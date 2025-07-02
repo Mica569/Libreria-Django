@@ -37,7 +37,7 @@ Asegúrate de tener instaladas las siguientes versiones (o superiores) para un f
 
 ### 2\. Instalación y Configuración del Entorno
 
-**1.**  Clonar el repositorio: git clone <https://github.com/Mica569/Libreria-Django.git> cd Libreria-Django
+**1.**  Clonar el repositorio: git clone <https://github.com/Mica569/Libreria-Django.git> 
 
 **2.** Crear un entorno virtual: Un entorno virtual aísla las dependencias de tu proyecto de otras instalaciones de Python.python -m venv venv
 
