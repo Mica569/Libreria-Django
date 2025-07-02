@@ -227,7 +227,10 @@ urlpatterns = [
 
   * Content-Type: application/json
 
-* { "username": "nuevo\_usuario", "password": "contrasena"}
+* {
+    "username": "nuevo\_usuario",
+    "password": "contrasena"
+  }
 
 #### **Inicio de Sesión (POST)**
 
@@ -239,8 +242,11 @@ urlpatterns = [
 
   * Content-Type: application/json
 
-* { "username": "nuevo\_usuario", 
-    "password": "contrasena"}
+```
+ { "username": "nuevo_usuario", 
+    "password": "contrasena"
+}
+```
 **Respuesta exitosa**:{ "token": "tu\_token\_de\_autenticacion\_aqui"}
 **Guarda este token**, lo necesitarás para todas las peticiones a los endpoints protegidos.
 
@@ -254,12 +260,14 @@ urlpatterns = [
 
   * Content-Type: application/json
 
-* {
+```
+ {
   "nombre": "Nombre del libro",
-  "autor": "Nombre del Autor", #Ya debe estar registrado previamente
+  "autor": "Nombre del Autor", # Ya debe estar registrado previamente
   "fecha_lanzamiento": "AAAA-MM-DD",
   "url": "www.ejemplo.com"
 }
+```
 
 **Respuesta exitosa**: Datos del libro registrado
 
@@ -275,10 +283,12 @@ urlpatterns = [
 
   * Content-Type: application/json
 
-* {
+```
+ {
   "nombre": "Nombre del autor",
   "nacionalidad": "Nacionalidad del autor"  
   }
+```
 **Respuesta exitosa**: Datos del autor registrado
 
 📖 Gestión de Libros (App libros)
