@@ -99,13 +99,14 @@ DATABASES = {
 ```
 (Reemplaza los valores con los de tu base de datos PostgreSQL)_
 
-**6.** `python manage.py makemigrations`
+**6.** Ejecuta en consola
+    `python manage.py makemigrations`
     `python manage.py migrate`
 
 **7.** Necesitarás un superusuario para acceder al panel de administración de Django y para probar la autenticación. 
 `python manage.py createsuperuser`
 
-**8.** Se puede asignar calificaciones automáticamente a cada libro con el script asign\_calif.py. Este script utiliza un json para cargar las calificaciones (se deben tener ya creados los usuarios para evitar errores con los id), los json se encuentran en la carpeta scripts/json\_data.
+**8.** Se puede asignar calificaciones automáticamente a cada libro con el script asign\_calif.py. Este script utiliza un json para cargar las calificaciones (se deben tener ya creados los usuarios y libros para evitar errores con los id), los json se encuentran en la carpeta scripts/json\_data.
 
 `python assign_calif.py`
 
@@ -113,7 +114,8 @@ DATABASES = {
 
 `python assign_genres.py`
 
-**10.** `python manage.py runserver`.
+**10.** Ejecuta
+`python manage.py runserver`.
 
 💡 Explicación del Programa y Cómo Funciona
 -------------------------------------------
@@ -227,11 +229,12 @@ urlpatterns = [
 
   * Content-Type: application/json
 
-* {
+```
+    {
     "username": "nuevo\_usuario",
     "password": "contrasena"
-  }
-
+    }
+```
 #### **Inicio de Sesión (POST)**
 
 * **URL**: <http://localhost:8000/accounts/login/>
@@ -694,8 +697,63 @@ urlpatterns = [
 ]
 ```
 
-📝 Documentación del Script de Carga de Datos
+📝 Documentación del Scripts de Carga de Datos
 ---------------------------------------------
+
+### Script para Asignar Calificaciones a Libros (assign\_calif.py)
+
+Este script de Python se utiliza para asignar estos calificaciones a los libros existentes, basándose en un json user\_1.json, que asigna una calificación usando los id del libro
+y del usuario con el que se hizo login previamente.
+
+**Uso:**
+
+1. Haz login con un usuario previamente registrado.
+
+2. Asegúrate de que los jsons estén en la misma carpeta que este script, en otro caso especifica la ruta en el mismo script.
+
+3. Personaliza el json con los ids de tus libros y el del usuario con el que se hizo login, además de las calificaciones que deseas asignar.
+
+   ```
+   [
+    {
+        "score": "2",
+        "libro": "1",
+        "user": "1"
+    }
+   ]
+   ```
+
+4. Ejecuta el script desde la raíz de tu proyecto Django:
+`python assign_calif.py`
+
+**Código del Script:**
+```
+import requests
+import json
+
+API_URL = "http://localhost:8000/api/calificaciones/"
+AUTH_TOKEN = "Token 31d1ad7668c1285b8e46f7c197905ef709b0caf4"  # reemplazar con token real
+
+headers = {
+    "Authorization": AUTH_TOKEN,
+    "Content-Type": "application/json"
+}
+
+# Cambia aquí el nombre del archivo JSON correspondiente al usuario
+filename = "json_data/user_5.json"
+
+with open(filename, "r", encoding="utf-8") as file:
+    data = json.load(file)
+
+for entry in data:
+    response = requests.post(API_URL, json=entry, headers=headers)
+    if response.status_code == 201:
+        print(f"✅ Calificación creada: Libro {entry['libro']} por Usuario {entry['user']} (score={entry['score']})")
+    else:
+        print(f"❌ Error con libro {entry['libro']} y usuario {entry['user']}")
+        print("Detalles:", response.status_code, response.text)
+
+```
 
 ### Script para Asignar Géneros a Libros (assign\_genres.py)
 
@@ -708,7 +766,7 @@ Este script de Python se utiliza para poblar la base de datos con géneros y asi
 2. Personaliza el diccionario book\_genre\_assignments dentro del script con los nombres de tus libros y los géneros que deseas asignar.
 
 3. Ejecuta el script desde la raíz de tu proyecto Django:
-`python assign_genres_from_data.py`
+`python assign_genres.py`
 
 **Código del Script:**
 ```
@@ -925,19 +983,19 @@ El script analyze\_data.py responde visualmente a las siguientes preguntas:
 
 Este gráfico de barras muestra la calificación promedio de los 20 libros mejor valorados en el sistema.
 
-[Figura 1](https://drive.google.com/file/d/13EQayeLunZUTKZr7_YZ4Z-WO3juLOa2s/view?usp=sharing)
+[Gráfico: Mejores 20 libros](https://drive.google.com/file/d/13EQayeLunZUTKZr7_YZ4Z-WO3juLOa2s/view?usp=sharing)
 
 #### **2\. ¿Cuántos libros ha escrito cada autor?**
 
 Este gráfico de barras visualiza la cantidad total de libros asociados a cada autor en la base de datos. Siendo Jorge Luis Borges y Paulo Coelho los autores con mayor cantidad de libros registrados, seguidos de Isabel Allende y Joanne Rowling respectivamente.
 
-[Figura 2](https://drive.google.com/file/d/1AXR_BsG2T_QM7tquYlT5v0l4e5q_9Y0g/view?usp=sharing)
+[Gráfico: Cantidad de libros por autor](https://drive.google.com/file/d/1AXR_BsG2T_QM7tquYlT5v0l4e5q_9Y0g/view?usp=sharing)
 
 #### **3\. ¿Cuántos libros hay por cada género?**
 
 Este gráfico de barras muestra la distribución de libros a través de los diferentes géneros disponibles en el sistema. Se visualiza una gran mayoría en el género Ficción, esto se debe a que la mayoría de los libros registrados tiene más de un género asignado siendo uno de ellos, la mayoría de las veces, ficción.
 
-[Figura 3](https://drive.google.com/file/d/1tH2NTlEDHtnlXgt2f2IGvLaVB3URh3nZ/view?usp=sharing)
+[Gráfico: Cantidad de libros según género](https://drive.google.com/file/d/1tH2NTlEDHtnlXgt2f2IGvLaVB3URh3nZ/view?usp=sharing)
 
 **Código del Script de Análisis:**
 ```
