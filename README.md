@@ -697,7 +697,7 @@ urlpatterns = [
 ]
 ```
 
-📝 Documentación del Scripts de Carga de Datos
+📝 Documentación de los Scripts de Carga de Datos
 ---------------------------------------------
 
 ### Script para Asignar Calificaciones a Libros (assign\_calif.py)
